@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{n}}{% endblock %}
+{% block content %}
+	{{ n }}
+	{% for i in items %}
+	{% endfor %}
+	<h2>{{ i }}</h2>
+	<form action="#" method="post">
+		<p>Login</p>
+		<p><input type="text" name="nm"></p>
+		<p>Password</p>
+		<p><input type="text" name="pass"></p>
+		<p><input type="submit" value="GO"></p>
+	</form>
+	
+
+	
+{% endblock %}
